@@ -13,4 +13,4 @@ Imagem base para criação de outras imanges no ambiente de desenvolvimento.
 
 docker run -it --user=app autodoc/ubuntu-base bin/bash
 
-**Por padrão, essa imagem vem com o usuário `app` configurado.**
+**Por padrão, essa imagem vem com o usuário `aplication` configurado.**
