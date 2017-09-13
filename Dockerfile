@@ -25,10 +25,9 @@ RUN apt-get update -y && \
 
 ARG USER_PUID=1000
 ARG USER_PGID=1000
-ARG USER_NAME=autodoc
+ARG USER_NAME=aplication
 
 RUN groupadd --gid $USER_PGID $USER_NAME \
-  && useradd --uid $USER_PUID --gid $USER_NAME -m $USER_NAME \
-  && cd /home \
-  && mkdir -p $USER_NAME/app
+  && useradd --uid $USER_PUID --gid $USER_NAME -m $USER_NAME
 
+WORKDIR ~/
