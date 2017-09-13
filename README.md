@@ -1,6 +1,6 @@
 ### Ubuntu base docker
 
-Imagem base para criação de outras imanges no ambiente de desenvolvimento da autodoc.
+Imagem base para criação de outras imanges no ambiente de desenvolvimento.
 
 ### Bibliotecas instaladas
 
@@ -8,10 +8,9 @@ Imagem base para criação de outras imanges no ambiente de desenvolvimento da a
 * wget
 * git
 * software-properties-common
-* python-software-properties
 
 ### Executado
 
-docker run -it --user=autodoc autodoc/ubuntu-base bin/bash
+docker run -it --user=app autodoc/ubuntu-base bin/bash
 
-**Por padrão, essa imagem vem com o usuário `autodoc` configurado.**
+**Por padrão, essa imagem vem com o usuário `app` configurado.**
