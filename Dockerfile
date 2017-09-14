@@ -3,10 +3,16 @@ FROM ubuntu:16.04
 ENV LANG=C.UTF-8
 
 RUN apt-get update -y && \
+    apt-get upgrade -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     git \
     curl \
     wget \
+    vim \
+    nano \
+    unzip \
+    apt-transport-https \
+    ca-certificates \
     software-properties-common \
     libmemcached-dev \
     libz-dev \
