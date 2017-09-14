@@ -8,6 +8,11 @@ Imagem base para criação de outras imanges no ambiente de desenvolvimento.
 * wget
 * git
 * software-properties-common
+* vim
+* nano 
+* unzip
+* ca-certificates
+* apt-transport-https
 
 ### Executado
 
