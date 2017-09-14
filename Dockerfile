@@ -35,5 +35,3 @@ ARG USER_NAME=application
 
 RUN groupadd --gid $USER_PGID $USER_NAME \
   && useradd --uid $USER_PUID --gid $USER_NAME -m $USER_NAME
-
-WORKDIR /home/application
