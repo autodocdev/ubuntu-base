@@ -26,8 +26,9 @@ RUN apt-get update -y && \
     libfontconfig1 \
     libxext6 \
     libxml2-dev \
-    openssh-server 
-
+    openssh-server \ 
+    ssh \
+    rsync
 
 
 ARG USER_PUID=1000
