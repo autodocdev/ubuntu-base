@@ -25,7 +25,8 @@ RUN apt-get update -y && \
     libxrender1 \
     libfontconfig1 \
     libxext6 \
-    libxml2-dev
+    libxml2-dev \
+    openssh-server 
 
 
 
